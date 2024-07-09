@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    scroll-snap-align: start;
+}
+.one{
+    padding-top: 130px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/HD\ wallpaper_\ Canon\ 85mm\ 1_2L\ II\,\ black\ DSLR\ camera\ lens\,\ Computers\,\ Hardware.jpeg);
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #f4ce47c3;
+    border-bottom: 2px solid #f4ce47c3;
+}
+
+header .logo
+{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    padding-bottom: 4vh;
+    padding-left: 20px;
+    margin: 9vh;
+    margin-top: 9%;
+}
+
+header .navigation{
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-left: 70px;
+    padding-right: 30px;
+}
+
+header .navigation a{
+    font-size: 20px;
+    color: #c4dc23;
+    background: transparent;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+header .navigation a:not(:last-child){
+    margin-right: 0px;
+}
+
+header .navigation a:hover{
+    transform: scale(1.5);
+
+    color: rgb(19, 13, 13);
+    background-color: rgb(243, 243, 248);
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none; 
+
+    }
+
+.btn{
+    font-size: 20px;
+    color: #c4dc23;
+    background: transparent;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+    color: #c4dc23;
+    border: 1px solid rgb(160, 157, 157);
+    transition: ease-in 0.5s;
+    font-size: 20px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    color: rgb(19, 13, 13);
+    background-color: rgb(243, 243, 248);
+}
+.search{
+    width: 200px;
+}
+
+.content{
+    max-width: 50%;
+    margin-left: 5%;
+    margin-right: 90%;
+}
+.content h1{
+    color: #eef1ee;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.content .info-btn{
+    color: #e6dc13;
+    background: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0px 20px;
+    border: 1px solid yellow;
+    border-radius: 8px;
+    transition-property: background;
+    transition: ease-in 0.5s;
+    transition: 0.3s;
+    
+}
+.content .info-btn:hover{
+    transform: scale(1.5);
+    color: #000000;
+    background: #fdfeff;
+}
+.media-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.media-icon a{
+    position: relative;
+    color: #ffffff;
+    font-size: 30px;
+    transition: 0.3s;
+    transition-property: transform; 
+}
+.media-icon a:not(:last-child){
+    margin-right: 60px;
+}
+.media-icon a:hover{
+    transform: scale(1.5);
+}
+
+.Explore{
+    border: 100px solid rgba(76, 15, 15, 0.881);
+    box-sizing: border-box;
+    background-color: #daa4717a;
+    background-size: 70px;
+    background-position: 70px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    display: flex;
+    width: 100%;
+    padding: 60px 0;
+    justify-content: center;
+    height: 100%;    
+}
+.Explore h1{
+    height: 3vh;
+    margin-left: 85vh;
+    font-size: 40px;
+    }
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin-top: 100px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.Explore h2{
+    padding-top: 20px;
+    font-size: 30px;
+    background-position: center;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px; 
+    font-style: italic;
+
+}
+
+   
+      
+
+.just{
+    background-image: url(/8\ Super-Tips\ to\ Ace\ Kerala\ Temple\ Wedding\ Photography.jpeg);
+    background-position: 70px;
+    background-repeat: no-repeat;
+    border: 100px solid rgba(229, 245, 5, 0.486);
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    padding: 60px 0;
+    justify-content: center;
+    height: 100%;    
+}
+.just .row{
+    padding-left: 800px;
+    padding-top: 100px;
+}
+.just h1{
+    font-size: 80px;
+    color: #197c00;
+}
+h2{
+    padding-left: 80px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.last{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    padding: 60px 0;
+    height: 100%; 
+    color: #f6f5fa;
+    background-color: #000000;
+    border-bottom: 2px solid #f3f0f0;
+}
+.last .h2{
+    border-top: 2px solid #f8f4f4;
+}
+.last .h2 .info-btn{
+    color: hsl(0, 18%, 96%);
+    text-decoration: none;
+    text-transform: lowercase;
+    background-color: transparent;
+    border: 0.3px solid #f3f0f0;
+    margin-left: 140px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    transition-property: background;
+}
+.last .h2.info-btn:hover{
+    background-color: #cddb87;
+}
+.last .column{
+    align-items: center;
+    float: left;
+    width: 33.33%;
+    padding: 18px;
+    margin-top: 10px;
+    border-top: 2px solid #f8f4f4;
+    border-bottom: 2px solid #f3f0f0;
+}
+.last .row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.last p {
+    padding-left: 30px;
+    
+}
+.last .info-btn{
+    color: #f6f2f2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+    transition-property: font;
+}
+.last .info-btn:hover{
+    color: #cddb87;
+}
+
